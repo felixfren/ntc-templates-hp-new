@@ -9,7 +9,7 @@ Value PVID (\d+)
 Value DESCRIPTION (.*?)
 
 Start
-  ^\s*The\s+brief\s+information\s+of\s+interface\(s\)\s+under\s+route\s+mode:\s*$$
+  ^\s*Brief\s+information\s+of\s+interface\(s\)\s+under\s+route\s+mode:\s*$$
   ^\s*Link:\s+ADM\s+-\s+administratively\s+down;\s+Stby\s+-\s+standby\s*$$
   ^\s*Protocol:\s+\(s\)\s+-\s+spoofing\s*$$
   ^\s*Interface\s+Link\s+Protocol\s+Main\s+IP\s+Description\s*$$ -> RouteModeIfaces
